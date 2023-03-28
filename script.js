@@ -1,0 +1,35 @@
+var counterContent= document.getElementById('counter');
+setTimeout(()=>{
+counterContent.innerHTML="10";
+    setTimeout(()=>{
+        counterContent.innerHTML="9";
+            setTimeout(()=>{
+                counterContent.innerHTML="8";
+                    setTimeout(()=>{
+                        counterContent.innerHTML="7";
+                            setTimeout(()=>{
+                                counterContent.innerHTML="6";
+                                    setTimeout(()=>{
+                                        counterContent.innerHTML="5";
+                                            setTimeout(()=>{
+                                                counterContent.innerHTML="4";
+                                                    setTimeout(()=>{
+                                                        counterContent.innerHTML="3";
+                                                            setTimeout(()=>{
+                                                                counterContent.innerHTML="2";
+                                                                    setTimeout(()=>{
+                                                                        counterContent.innerHTML="1";
+                                                                            setTimeout(()=>{
+                                                                                counterContent.innerHTML="Happy Independence Day";
+                                                                                counterContent.style.color="orange";
+                                                                            },1000)
+                                                                    },1000)
+                                                            },1000)
+                                                    },1000)
+                                            },1000)
+                                    },1000)
+                            },1000)
+                    },1000)
+            },1000)
+    },1000)
+},1000)
